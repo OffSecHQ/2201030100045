@@ -21,6 +21,9 @@ Addition of following pages:
 
 8. FAQ Page: Common questions and answers related to eco-friendly products and the website.
 
+# Update 1.2
+- Uploaded .jpg files to resolve the web rendering (in case you are previewing files from the web browser, Github doesn't support the render of .pdf files )
+
 ### Additional info
 - Prototype files is added
 - The used files and pictures included in [Assets](./Assets/)
