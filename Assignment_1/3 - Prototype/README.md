@@ -27,6 +27,9 @@ Addition of following pages:
 # Update 1.3
 - Removed .pdf files to separated folder to avoid the confusion
 
+# Update 1.4
+- Added Sign Up page
+
 ### Additional info
 - Prototype files is added
 - The used files and pictures included in [Assets](./Assets/)
