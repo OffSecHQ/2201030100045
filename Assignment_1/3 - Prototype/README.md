@@ -30,6 +30,9 @@ Addition of following pages:
 # Update 1.4
 - Added Sign Up page
 
+# Update 2
+- Major update on simplifying the overall design to make it easier to implement, the client is rushing on delivery date Thanks (DHR)
+
 ### Additional info
 - Prototype files is added
 - The used files and pictures included in [Assets](./Assets/)
