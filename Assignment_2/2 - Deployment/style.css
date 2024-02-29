@@ -1,0 +1,156 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+.container {
+  align-self: center;
+  width: 95%;
+  padding-right: 35px;
+  padding-left: 35px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+header {
+  height: 40px;
+}
+
+.NavBar,
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.NavMenu {
+  width: 320px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-items: flex-start;
+  justify-content: space-between;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  background-color: white;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.FooterSec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+}
+.card li {
+  padding-bottom: 7px;
+}
+
+.NewsLetter {
+  border-style: none;
+  padding: 9px;
+  border-bottom: 1px solid black;
+}
+
+#SubBTN {
+  border-style: none;
+  border-radius: 0px;
+  padding: 9px;
+  border-bottom: 1px solid black;
+}
+
+span {
+  color: green;
+}
+
+.cardEnd {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.SocialLogo {
+  width: 20px;
+}
+
+.MainDevOne {
+  width: 500px;
+  height: 100%;
+  align-items: center;
+  padding-top: 170px;
+}
+
+.GreenBTN {
+  background-color: green;
+  color: white;
+  padding: 15px;
+  border-radius: 25px;
+}
+
+.FlyingCard {
+  display: flex;
+  flex-direction: row;
+  width: 450px;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 14px;
+  margin: 15px;
+}
+
+.FormCard {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+}
+
+form {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  width: 400px;
+  padding: 15px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.FormInput {
+  border-style: none;
+  height: 30px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+#FormBTN {
+  border-style: none;
+  border: 1px solid black;
+  border-radius: 10px;
+}
