@@ -7,6 +7,18 @@
     <link href="./style.css" rel="stylesheet" />
   </head>
   <body>
+    <script>
+      function PasswordCompare() {
+        let Fpass = document.getElementById("Pass").value;
+        let Fcon = document.getElementById("PassCon").value;
+
+        if (Fpass !== Fcon) {
+          alert("Passwords didn't match! reenter it");
+          return false;
+        } 
+        return true;
+      }
+    </script>
     <div class="container">
       <header class="NavBar">
         <ul class="NavMenu">
@@ -27,7 +39,12 @@
 
     <main class="container">
       <div class="FormCard">
-        <form>
+        <form
+          name="RegistrationForm"
+          method="GET"
+          action="./about.html"
+          onsubmit="return PasswordCompare()"
+        >
           <h1>Create an account</h1>
           <label>First Name</label>
           <input class="FormInput" type="text" />
@@ -36,8 +53,10 @@
           <label>Email</label>
           <input class="FormInput" type="email" />
           <label>Password</label>
-          <input class="FormInput" type="email" />
-          <button id="FormBTN">Sign Up</button>
+          <input id="Pass" name="Password" class="FormInput" type="password" required />
+          <label>Confirm Password</label>
+          <input id="PassCon" name="PasswordConfirm" class="FormInput" type="password" required />
+          <button type="submit" id="FormBTN">Sign Up</button>
           <p>
             By creating an account you agree to the
             <a href="terms.html">Terms</a> of use and Privacy
